@@ -1,4 +1,4 @@
-node {
+node('docker_agent') {
     def app
 
     stage('Clone repository') {
